@@ -27,8 +27,6 @@ class Controls extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    console.log("Controls -> componentDidUpdate -> prevProps", prevProps);
-
     if (
       prevProps.modalINC !== this.props.modalINC ||
       prevProps.modalDEC !== this.props.modalDEC

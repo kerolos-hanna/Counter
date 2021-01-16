@@ -8,9 +8,6 @@ const IncrementComponent = ({
   onModalINC,
   modalINC,
 }) => {
-  useEffect(() => {
-    console.log("IncrementComponent -> modalINC", modalINC);
-  }, [modalINC]);
   return (
     <div
       onClick={() => {

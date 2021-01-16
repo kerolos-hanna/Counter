@@ -33,7 +33,6 @@ class Counter extends Component {
     ) {
       this.props.onDecrement();
     }
-    console.log(this.keyPressed);
   }
 
   handleKeyUp() {
